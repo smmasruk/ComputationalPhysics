@@ -1,11 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//defination of logistic map
 double lmap(double lambda, double x)
 {
     return (lambda * x * (1 - x));
 }
 
+//function to get stable value
 double x100(double l, double x)
 {
     for (int i = 1; i < 100001; i++)
