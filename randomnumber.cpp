@@ -7,10 +7,10 @@
 using namespace std;
 int main()
 {
-    srand48(0);
-    //cout<<getpid()*time(NULL)<<endl;
+  srand48(0);
+  //cout<<getpid()*time(NULL)<<endl;
   // cout<< drand((getpid() * time(NULL))<<endl;
-    
-    cout<<drand48()<<endl;
-    return 0;
+
+  cout << drand48() << endl;
+  return 0;
 }

@@ -30,7 +30,7 @@ int main()
         //printing t and v. 
         cout << t0 << "     " << v << endl;
         t0 = t0 + h;
-        v0 = v;
+        v0 = v;f
     }
 
     
